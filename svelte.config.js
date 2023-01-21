@@ -15,9 +15,13 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			pages: 'build', // This tells in which folder to build the static files to
+			assets: 'build', // This tells in which folder to build the static files to
+			fallback: null
+		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/sveltekit-gh-pages' : ''
+			base: '/portofolio' // The github repository name
 		}
 	}
 };
