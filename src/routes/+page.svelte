@@ -4,6 +4,7 @@
 	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaInstagram from 'svelte-icons/fa/FaInstagram.svelte';
 	import IoIosWarning from 'svelte-icons/io/IoIosWarning.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <div class="top sticky z-10 text-center bg-yellow-300">
@@ -17,7 +18,7 @@
 			class="max-w-lg lg:p-10 lg:pb-2 p-4 sm:p-10 md:pb-0 pt-0 z-10 porto-glasmorph md:grid md:grid-flow-col md:grid-cols-3 md:grid-rows-2 gap-2"
 		>
 			<img
-				src="/images/openPeeps-avatar.svg"
+				src="{base}/images/openPeeps-avatar.svg"
 				class="rounded-full m-auto transform -translate-y-10 md:translate-y-0 hover:scale-110 hover:rotate-6 md:transition-transform border-2 border-white w-[100px] h-[100px] md:w-[150px] md:h-[150px] md:order-last md:mr-0 "
 				alt="openpeeps-avatar-mikhael"
 			/>
