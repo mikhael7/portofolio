@@ -19,7 +19,7 @@
 		>
 			<img
 				src="{base}/images/openPeeps-avatar.svg"
-				class="rounded-full m-auto transform -translate-y-10 md:translate-y-0 hover:scale-110 hover:rotate-6 md:transition-transform border-2 border-white w-[100px] h-[100px] md:w-[150px] md:h-[150px] md:order-last md:mr-0 "
+				class="rounded-full m-auto transform -translate-y-10 md:translate-y-0 hover:scale-110 hover:rotate-6 md:transition-transform border-2 border-white max-w-[100px] max-h-[100px] md:max-w-[150px] md:max-h-[150px] md:order-last md:mr-0 "
 				alt="openpeeps-avatar-mikhael"
 			/>
 			<div
