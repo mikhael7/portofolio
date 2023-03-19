@@ -1895,7 +1895,8 @@ html {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
-}/*
+}
+/*
 ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -3667,37 +3668,37 @@ html {
   }
 }
 .porto-bg {
-        background-color: #0093E9;
-        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-    }
+		background-color: #0093e9;
+		background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+	}
 .porto-blob {
-        background-image: url('/images/blobanimation.svg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-    }
+		background-image: url('/images/blobanimation.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+	}
 .porto-glasmorph {
-        /* From https://css.glass */
-        background: rgba(255, 255, 255, 0.2);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-    }
+		/* From https://css.glass */
+		background: rgba(255, 255, 255, 0.2);
+		border-radius: 16px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		border: 1px solid rgba(255, 255, 255, 0.3);
+	}
 .porto-icon {
-        width: 2rem;
-        height: 2rem;
-    }
+		width: 2rem;
+		height: 2rem;
+	}
 .porto-icon:hover {
-        color: #fff;
-    }
+		color: #fff;
+	}
 html,
-    body {
+	body {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-        color: black;
+		color: black;
 }
 .sticky {
   position: sticky;
