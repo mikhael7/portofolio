@@ -1,10 +1,9 @@
 <script>
+	import { base } from '$app/paths';
 	import FaGithubSquare from 'svelte-icons/fa/FaGithubSquare.svelte';
 	import FaGitlab from 'svelte-icons/fa/FaGitlab.svelte';
-	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaInstagram from 'svelte-icons/fa/FaInstagram.svelte';
-	import IoIosWarning from 'svelte-icons/io/IoIosWarning.svelte';
-	import { base } from '$app/paths';
+	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 </script>
 
 <div class="top sticky z-10 text-center bg-yellow-300">
