@@ -21,23 +21,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/configure-pages@v1
-        id: pages
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: 'npm'
-      - run: npm install -g npm
-      - run: npm install
-      - run: npm run format
-      - run: npm run lint
-      - run: npm run build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: ./build
+#     steps:
+#       - uses: actions/checkout@v3
+#       - uses: actions/configure-pages@v1
+#         id: pages
+#       - uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
+#           cache: 'npm'
+#       - run: npm install -g npm
+#       - run: npm install
+#       - run: npm run format
+#       - run: npm run lint
+#       - run: npm run build
+#       - name: Upload artifact
+#         uses: actions/upload-pages-artifact@v1
+#         with:
+#           path: ./build
 
   deploy:
     runs-on: ubuntu-latest
