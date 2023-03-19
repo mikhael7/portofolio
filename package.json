@@ -41,8 +41,12 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-static": "^1.0.5",
+<<<<<<< HEAD
 		"daisyui": "^2.47.0",
 		"dotenv": "^16.0.3",
+=======
+		"daisyui": "^2.49.0",
+>>>>>>> 6d4105b738bdf90968d5cbdd4b10fc1c10f23fc9
 		"svelte-icons": "^2.1.0"
 	}
 }
