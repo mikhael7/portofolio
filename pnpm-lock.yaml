@@ -8,8 +8,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.45.0
   '@typescript-eslint/parser': ^5.45.0
   autoprefixer: ^10.4.7
-  daisyui: ^2.47.0
-  dotenv: ^16.0.3
+  daisyui: ^2.49.0
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
@@ -31,7 +30,6 @@ specifiers:
 dependencies:
   '@sveltejs/adapter-static': 1.0.6_@sveltejs+kit@1.12.0
   daisyui: 2.51.4_j7yt3jd32cwenjqavrrga47yr4
-  dotenv: 16.0.3
   svelte-icons: 2.1.0
 
 devDependencies:
@@ -912,11 +910,6 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
-
-  /dotenv/16.0.3:
-    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
-    engines: {node: '>=12'}
-    dev: false
 
   /electron-to-chromium/1.4.333:
     resolution: {integrity: sha512-YyE8+GKyGtPEP1/kpvqsdhD6rA/TP1DUFDN4uiU/YI52NzDxmwHkEb3qjId8hLBa5siJvG0sfC3O66501jMruQ==}
